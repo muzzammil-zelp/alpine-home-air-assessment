@@ -43,7 +43,7 @@ function Users() {
 
   return (
     <div>
-      <div className={styles.toolbar}>Photos</div>
+      <div className={styles.toolbar}>Users</div>
       <div className={styles.container}>
         {users.map((user) => (
           <div key={user.id} className={styles.card}>
