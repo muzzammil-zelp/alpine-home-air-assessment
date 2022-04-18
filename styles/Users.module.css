@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: thin solid #e1e1e16b;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 250px;
+  max-width: "90vw";
+}
+
+.toolbar {
+  padding: 18px;
+  background-color: #fafbfc;
+  width: 100vw;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.username {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.data {
+  display: grid;
+  column-count: 1;
+  row-gap: 12px;
+}
+
+.dataContainer {
+  display: flex;
+}
+
+.dataIcon {
+  opacity: 0.6;
+  width: 16px;
+  margin-right: 8px;
+}
+
+.dataValue {
+  font-size: 13px;
+}

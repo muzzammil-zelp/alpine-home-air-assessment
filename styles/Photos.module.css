@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  max-width: "90vw";
+}
+
+.toolbar {
+  padding: 18px;
+  background-color: #fafbfc;
+  width: 100vw;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
