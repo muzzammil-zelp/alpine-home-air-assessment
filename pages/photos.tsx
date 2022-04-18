@@ -20,7 +20,7 @@ function Photos() {
     )
       .then((data) => data.json())
       .then((data) => setPhotos(data));
-  }, []);
+  }, [router.query]);
 
   return (
     <div>

@@ -19,17 +19,15 @@ function Albums() {
     )
       .then((data) => data.json())
       .then((data) => setAlbums(data));
-  }, []);
+  }, [router.query]);
 
   return (
     <div>
       <div className={styles.toolbar}>Albums</div>
       <div className={styles.container}>
         {albums.map((album) => (
-          <Link href={`/photos?albumId=${album.id}`}>
-            <div key={album.id} className={styles.card}>
-              {album.title}
-            </div>
+          <Link key={album.id} href={`/photos?albumId=${album.id}`}>
+            <div className={styles.card}>{album.title}</div>
           </Link>
         ))}
       </div>

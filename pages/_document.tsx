@@ -6,7 +6,6 @@ export default class AppDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>Assessment</title>
           <link rel="icon" href="/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
